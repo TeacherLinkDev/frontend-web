@@ -8,10 +8,10 @@ import { SigninPage } from './signin.page';
 @NgModule({
   imports: [
     CommonModule,
-    FormsModule,
-    IonicModule,
+    FormsModule,    // Required for ngModel
+    IonicModule,    // Required for Ionic components
     SigninPageRoutingModule
   ],
   declarations: [SigninPage]
 })
-export class SigninPageModule { }
+export class SigninPageModule {}
